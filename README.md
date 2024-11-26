@@ -1,4 +1,6 @@
 
+
+
 # matric exam papers data papiline: airlfow, aws glue, athena, apache spark
 
 
@@ -29,7 +31,7 @@ The data used for the current project is extracted from the **Teach Me 2** platf
 
 must have docker running
 
-1. Create airflow environement running:
+1. Setup Airflow environment
 
 
 ```
@@ -54,6 +56,28 @@ astro dev stop
 
 ```
 you can access airflow **http://localhost:8080**
+
+
+2. Get files 
+
+3. Load files to s3 bucket
+
+3. Create lambda function to extract files from the zip folder and store in s3 bucket
+
+4. Create lambda function to extract from pdf to json file
+
+5. Run Glue Crawler
+
+6. Create a glue job to transform the json file into parquet
+
+
+7. query data using Athena
+
+
+8. create odbc to connect to aws Athena 
+
+
+9. run analytics using power bi, 
 
 
 
